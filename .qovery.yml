@@ -1,11 +1,11 @@
 ---
 application:
-  name: "nexusdeploy"
-  project: "Deployment_Test"
-  organization: "QoveryCommunity"
+  name: "my-application"
+  project: "my-project"
+  publicly_accessible: "true"
 routers:
-- name: "main-nexusdeploy"
+- name: "main"
   routes:
-  - application_name: "nexusdeploy"
+  - application_name: "my-application"
     paths:
-    - "/*"
+    - /
